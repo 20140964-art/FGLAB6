@@ -1,0 +1,28 @@
+
+.main-content {
+  padding-top: 70px; 
+}
+
+.home-page .main-content {
+  padding-top: 0; 
+}
+
+.hero-section {
+  min-height: calc(100vh - 70px); 
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+.main-content {
+  padding-top: 0; 
+}
+
+.hero-section h1 {
+  margin-top: 70px; 
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+}

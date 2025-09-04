@@ -1,0 +1,15 @@
+<div *ngIf="product" class="product-details d-flex justify-content-center align-items-center">
+  <div class="card shadow-lg" style="max-width: 28rem; width: 100%;">
+    <div class="card-body">
+      <h4 class="card-title fw-bold mb-3 text-center">{{ product.name }}</h4>
+      
+      <p class="card-text"><strong>Price:</strong> ₱{{ product.price }}</p>
+      <p class="card-text"><strong>Location:</strong> {{ product.location }}</p>
+      <p class="card-text"><strong>Details:</strong> {{ product.details || 'No details available' }}</p>
+      
+      <div class="text-center mt-4">
+        <a class="btn btn-success" routerLink="/products">Go Back</a>
+      </div>
+    </div>
+  </div>
+</div>
